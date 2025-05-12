@@ -12,7 +12,76 @@ body {
 	transition: background 500ms ease;
 	background-color: rgb(142, 142, 142);
 	text-align: center;
+	overflow: hidden;  /* 화면 밖으로 나가지 않게 */
+  	position: relative;  /* 별이 배경에 위치할 수 있도록 */
 }
+
+/* 별의 기본 스타일 */
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  animation: twinkling 2s infinite ease-in-out, floating 5s infinite linear;
+}
+
+/* 별 반짝임 애니메이션 */
+@keyframes twinkling {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+/* 별이 이동하는 애니메이션 */
+@keyframes floating {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(var(--x)) translateY(var(--y));
+  }
+}
+
+/* 별의 크기, 위치, 움직임을 랜덤으로 설정 */
+.star:nth-child(1) {
+  --x: -300px;
+  --y: -200px;
+  --size: 8px;
+  animation-duration: 4s;
+}
+
+.star:nth-child(2) {
+  --x: 400px;
+  --y: 300px;
+  --size: 6px;
+  animation-duration: 6s;
+}
+
+.star:nth-child(3) {
+  --x: -500px;
+  --y: 250px;
+  --size: 12px;
+  animation-duration: 5s;
+}
+
+.star:nth-child(4) {
+  --x: 350px;
+  --y: -300px;
+  --size: 10px;
+  animation-duration: 7s;
+}
+
+/* 별들의 크기 설정 */
+.star {
+  width: var(--size);
+  height: var(--size);
+}
+
 
 p, li {
 	font-size:  15px;
