@@ -9,6 +9,7 @@
 body {
 	font-family: "Chango", sans-serif;
 	transition: background 500ms ease;
+	background-color: hotpink;
 }
 
 p, li {
