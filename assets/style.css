@@ -8,6 +8,7 @@
 
 body {
 	font-family: "Chango", sans-serif;
+	color: white;
 	transition: background 500ms ease;
 	background-color: rgb(255, 8, 131);
 	text-align: center;
