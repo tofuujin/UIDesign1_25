@@ -72,7 +72,8 @@ button:hover{
 
 
 body.dark {
-  background: #333;
+  background: #0a0a0a;
+  color: white;
 }
 /* uncomment the code below to set the grid */
 
