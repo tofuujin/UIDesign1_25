@@ -7,8 +7,7 @@
 /* adjusting fonts */
 @font-face {
   font-family: 'HersheyNoaillesTimes';
-  src: url('fonts/Hershey-Noailles-Times.woff2') format('woff2'),
-       url('fonts/Hershey-Noailles-Times.woff') format('woff');
+  src: url('fonts/Hershey-Noailles-Times.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
