@@ -32,13 +32,13 @@ body {
 
 p, li {
 	font-size:  15px;
-	line-height: 15px;
+	line-height: 30px;
 }
 
 /* adjusting spacing */
 
 #left-column {
-	padding: 20px;
+	padding: 40px;
 }
 
 h1, p {
