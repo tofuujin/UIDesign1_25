@@ -69,6 +69,19 @@ button:hover{
 	background: rgb(200 200 200);
 	cursor: pointer;
 }
+
+
+body.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+body.darkmode button{
+	color: white;
+}
 /* uncomment the code below to set the grid */
 
 /*#grid {
