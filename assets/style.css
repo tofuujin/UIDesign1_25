@@ -6,15 +6,15 @@
 
 /* adjusting fonts */
 @font-face {
-  font-family: 'HersheyNoaillesTimes';
-  src: url('Hershey-Noailles-Times-Duplex-Italic-Bold.woff2') format('woff2'),
-       url('Hershey-Noailles-Times-Duplex-Italic-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'HersheyNoaillesTimesDuplexItalicBold';
+  src: url('assets/fonts/Hershey-Noailles-Times-Duplex-Italic-Bold.woff2') format('woff2'),
+       url('assets/fonts/Hershey-Noailles-Times-Duplex-Italic-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
 }
 
 body {
-	font-family: 'Hershey-Noailles-Times-Duplex-Italic-Bold', serif;
+	font-family: 'HersheyNoaillesTimesDuplexItalicBold', serif;
 	color: rgb(33, 33, 33);
 	transition: background 500ms ease;
 	background-color: rgb(226, 255, 9);
