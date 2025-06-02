@@ -57,6 +57,7 @@ img {
 
 button{
 	font-size: 1rem;
+	font-style: serif;
 	border: 2px solid var(--accent-color);
 	background: transparent;
 	padding: 0.5rem;
