@@ -7,8 +7,8 @@
 /* adjusting fonts */
 @font-face {
   font-family: 'HersheyNoaillesTimesDuplexItalicBold';
-  src: url('assets/fonts/Hershey-Noailles-Times-Duplex-Italic-Bold.woff2') format('woff2'),
-       url('assets/fonts/Hershey-Noailles-Times-Duplex-Italic-Bold.woff') format('woff');
+  src: url('fonts/Hershey-Noailles-Times-Duplex-Italic-Bold.woff2') format('woff2'),
+       url('fonts/Hershey-Noailles-Times-Duplex-Italic-Bold.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
