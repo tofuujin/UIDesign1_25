@@ -26,8 +26,8 @@ body {
 }
 .desc {
   font-style: serif;
-  color: gray;
-  margin-bottom: 20px;
+  color: rgb(255, 13, 13);
+  margin-bottom: 40px;
 }
 
 p, li {
