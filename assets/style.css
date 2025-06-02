@@ -18,7 +18,7 @@
 
 body {
 	font-family: 'HersheyNoaillesTimesDuplexItalicBold', serif;
-	color: white;
+	color: rgb(33, 33, 33);
 	transition: background 500ms ease;
 	background-color: rgb(226, 255, 9);
 	text-align: left;
