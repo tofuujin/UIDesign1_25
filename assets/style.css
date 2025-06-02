@@ -5,9 +5,19 @@
 }
 
 /* adjusting fonts */
+@font-face {
+  font-family: 'HersheyNoaillesTimesDuplexItalicBold';
+  src: url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Times-Duplex-Italic-Bold/Hershey-Noailles-Times-Duplex-Italic-Bold.eot'); /* IE9 Compat Modes */
+  src: url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Times-Duplex-Italic-Bold/Hershey-Noailles-Times-Duplex-Italic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Times-Duplex-Italic-Bold/Hershey-Noailles-Times-Duplex-Italic-Bold.woff') format('woff'), /* Modern Browsers */
+       url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Times-Duplex-Italic-Bold/Hershey-Noailles-Times-Duplex-Italic-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('http://hershey-noailles.luuse.io/output/Hershey-Noailles-Times-Duplex-Italic-Bold/Hershey-Noailles-Times-Duplex-Italic-Bold.svg#HersheyNoaillesTimesDuplexItalicBold') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+  font-style: italic;
+}
 
 body {
-	font-family: "Chango", sans-serif;
+	font-family: 'HersheyNoaillesTimesDuplexItalicBold', serif;
 	color: white;
 	transition: background 500ms ease;
 	background-color: rgb(142, 142, 142);
