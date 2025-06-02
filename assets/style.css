@@ -24,7 +24,11 @@ body {
 	text-align: left;
 	
 }
-
+.desc {
+  font-style: serif;
+  color: gray;
+  margin-bottom: 20px;
+}
 
 p, li {
 	font-size:  15px;
